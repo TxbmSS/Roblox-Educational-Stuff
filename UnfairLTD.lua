@@ -1,9 +1,3 @@
---if game.PlaceId == 142823291 then
-
-debugX = true
-
-if not readfile or not isfile then game.Players.LocalPlayer:Kick("Unsupported Executor") return end
-
 getgenv().SecureMode = Value
 
 getgenv().AntiKick = false
